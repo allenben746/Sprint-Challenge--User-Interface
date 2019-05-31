@@ -65,11 +65,92 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.aboutHeader{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+}
+header nav {
+    width: 1180px;
+    display: flex;
+    /* color:red;
+    background-color: red; */
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+    
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header .navContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 240px;
+}
+.bigHeaderPictureIndex {
+   display: flex;
+   justify-content: center;
+}
+.indexNavContainer {
+display: flex;
+align-content: center;
+width: 800px;
+}
+.navContainer{
+    display: flex;
+    justify-content: center;
+}
+.indexNavContainer a{
+    padding: 40px;
+    color: black;
+    text-decoration: none;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+}
+ .aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    height: 153px;
+    /* border-bottom: dotted 3px; */
+}
+.bigHeaderPicture {
+    display: flex;
+    /* justify-content: center; */
+    padding-bottom: 20px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+body {
+    justify-content: center;
+}
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 800px;
+    height: 820px;
+    /* border: solid red; */
+}
+.container-about-page .item {
+    padding: 10px;
+    border-bottom: dotted 3px;
+}
+.workTogetherMessage {
+    padding-bottom: 19px;
+    padding-top: 19px;
+    display:flex;
+    flex-direction: column;
+}
+
 
 .top-content {
     display: flex;
@@ -127,20 +208,52 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    padding-top: 10px;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes .box1 { 
+    background-color: teal;
+}
+.middle-content .boxes .box2 { 
+    background-color: gold;
+}
+.middle-content .boxes .box3 { 
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 { 
+    background-color: coral;
+}
+.middle-content .boxes .box5 { 
+    background-color: crimson;
+}
+.middle-content .boxes .box6 { 
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 { 
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 { 
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 { 
+    background-color: indigo;
+}
+.middle-content .boxes .box10 { 
+    background-color: dodgerblue;
 }
